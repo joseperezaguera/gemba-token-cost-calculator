@@ -1,0 +1,97 @@
+# Precios públicos por millón de tokens (USD).
+# Última actualización: 16 mayo 2026.
+# Fuente: páginas oficiales de pricing de cada proveedor.
+# Edita libremente para mantener actualizado.
+
+# Tipos de cambio aproximados a euros (puede modificarse con --eur-rate)
+exchange:
+  usd_to_eur: 0.92  # ~ mayo 2026
+
+models:
+  # ============ OpenAI ============
+  gpt-4o:
+    provider: openai
+    tokenizer_id: gpt-4o
+    input_per_million_usd: 2.50
+    output_per_million_usd: 10.00
+    notes: "GPT-4o estándar"
+
+  gpt-4o-mini:
+    provider: openai
+    tokenizer_id: gpt-4o-mini
+    input_per_million_usd: 0.15
+    output_per_million_usd: 0.60
+    notes: "GPT-4o Mini"
+
+  gpt-4-turbo:
+    provider: openai
+    tokenizer_id: gpt-4-turbo
+    input_per_million_usd: 10.00
+    output_per_million_usd: 30.00
+    notes: "GPT-4 Turbo legacy"
+
+  gpt-3.5-turbo:
+    provider: openai
+    tokenizer_id: gpt-3.5-turbo
+    input_per_million_usd: 0.50
+    output_per_million_usd: 1.50
+
+  # ============ Anthropic ============
+  claude-opus-4-7:
+    provider: anthropic
+    tokenizer_id: claude-opus-4-7
+    input_per_million_usd: 15.00
+    output_per_million_usd: 75.00
+    notes: "Claude Opus 4.7 — top de gama"
+
+  claude-sonnet-4-6:
+    provider: anthropic
+    tokenizer_id: claude-sonnet-4-6
+    input_per_million_usd: 3.00
+    output_per_million_usd: 15.00
+    notes: "Claude Sonnet 4.6 — equilibrio calidad/precio"
+
+  claude-haiku-4-5:
+    provider: anthropic
+    tokenizer_id: claude-haiku-4-5
+    input_per_million_usd: 1.00
+    output_per_million_usd: 5.00
+    notes: "Claude Haiku 4.5 — rápido y barato"
+
+  # ============ HuggingFace ============
+  # Los modelos open source no tienen "precio por API". Aquí ponemos
+  # una estimación del coste de auto-alojar en GPU. Editar según tu infra.
+  llama-3-8b:
+    provider: hf
+    tokenizer_id: meta-llama/Meta-Llama-3-8B
+    input_per_million_usd: 0.20  # estimación auto-alojado en H100
+    output_per_million_usd: 0.20
+    notes: "Llama 3 8B auto-alojado (estimación, requiere HF_TOKEN)"
+
+  qwen-2-5-7b:
+    provider: hf
+    tokenizer_id: Qwen/Qwen2.5-7B-Instruct
+    input_per_million_usd: 0.15
+    output_per_million_usd: 0.15
+    notes: "Qwen 2.5 7B auto-alojado (estimación)"
+
+  mistral-7b:
+    provider: hf
+    tokenizer_id: mistralai/Mistral-7B-v0.3
+    input_per_million_usd: 0.20
+    output_per_million_usd: 0.20
+    notes: "Mistral 7B auto-alojado (estimación)"
+
+  mt5-base:
+    provider: hf
+    tokenizer_id: google/mt5-base
+    input_per_million_usd: 0.10
+    output_per_million_usd: 0.10
+    notes: "mT5 multilingüe (referencia para tokenizer Unigram+Viterbi)"
+
+  bert-multilingual:
+    provider: hf
+    tokenizer_id: google-bert/bert-base-multilingual-cased
+    input_per_million_usd: 0.05
+    output_per_million_usd: 0.05
+    notes: "BERT multilingüe (referencia para tokenizer WordPiece)"

@@ -1,0 +1,7 @@
+{
+  "name": "gemba-token-cost-calculator",
+  "version": "0.1.0",
+  "description": "Skill y comandos para calcular conversacionalmente el coste por token de un texto en varios modelos comerciales y open source.",
+  "author": "José Ramón Pérez Agüera",
+  "license": "MIT"
+}

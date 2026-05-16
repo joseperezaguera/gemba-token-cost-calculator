@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gemba-token-cost-calculator"
+version = "0.1.0"
+description = "Calculadora de coste por token multimodelo y multiidioma usando tokenizadores reales (tiktoken, transformers, Anthropic)."
+authors = [{name = "José Ramón Pérez Agüera"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.1",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+# Cada proveedor opcional para que la calculadora pueda usarse parcialmente
+openai = ["tiktoken>=0.7"]
+hf = ["transformers>=4.40", "sentencepiece>=0.2"]
+anthropic = ["anthropic>=0.30"]
+# 'all' instala todos los proveedores de una vez
+all = [
+    "tiktoken>=0.7",
+    "transformers>=4.40",
+    "sentencepiece>=0.2",
+    "anthropic>=0.30",
+]
+
+[project.scripts]
+gemba-tokens = "src.cli:main"
+
+[tool.setuptools]
+packages = ["src", "src.tokenizers"]
