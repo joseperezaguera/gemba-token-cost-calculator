@@ -2,7 +2,7 @@
 
 > **Calculadora de coste real por token, multimodelo y multiidioma.** Usa los tokenizadores reales —`tiktoken` para OpenAI, `transformers` de HuggingFace para Llama 3, Qwen, Mistral, T5 y BERT, y la API oficial de Anthropic para Claude— combinados con una tabla de precios actualizable. Material complementario del artículo de [Gemba](https://www.gemba.es/) [«¿Qué es un token?»](https://www.gemba.es/p/que-es-un-token) (18 mayo 2026).
 
-Si lo que quieres es **entender cómo funcionan los tokenizadores por dentro**, el repo hermano es [`gemba-tokenizers-from-scratch`](https://github.com/josemerca/gemba-tokenizers-from-scratch). Este de aquí es para **decidir presupuesto con número**.
+Si lo que quieres es **entender cómo funcionan los tokenizadores por dentro**, el repo hermano es [`gemba-tokenizers-from-scratch`](https://github.com/joseperezaguera/gemba-tokenizers-from-scratch). Este de aquí es para **decidir presupuesto con número**.
 
 ## Para qué sirve
 
@@ -14,7 +14,7 @@ Si lo que quieres es **entender cómo funcionan los tokenizadores por dentro**, 
 ## Quickstart
 
 ```bash
-git clone https://github.com/josemerca/gemba-token-cost-calculator.git
+git clone https://github.com/joseperezaguera/gemba-token-cost-calculator.git
 cd gemba-token-cost-calculator
 
 # Instala con todos los proveedores
