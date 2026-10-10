@@ -1,0 +1,25 @@
+{
+  "purpose": "Calculate token costs using project tokenizer adapters and a maintained price table.",
+  "commands": {
+    "verify": ".venv/bin/python -m unittest discover tests -v",
+    "test": ".venv/bin/python -m unittest discover tests -v",
+    "lint": "git diff --check",
+    "build": null
+  },
+  "conventions": [
+    "README.md"
+  ],
+  "generated_paths": [],
+  "environment_notes": [
+    "Create the local environment with python3 -m venv .venv and .venv/bin/python -m pip install -e .",
+    "The existing test suite mocks tokenizers and makes no provider API calls.",
+    "Exact Anthropic counting and some tokenizer downloads need separate credentials or network; do not use them for offline verification.",
+    "prices.yaml is editable source data; verify changing prices against current provider sources.",
+    "Each worktree needs its own environment.",
+    "No global plugin, credential or corporate configuration is changed by this setup."
+  ],
+  "framework": {
+    "name": "superpowers",
+    "host_versions": {}
+  }
+}
