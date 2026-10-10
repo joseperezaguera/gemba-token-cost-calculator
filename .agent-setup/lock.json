@@ -1,0 +1,13 @@
+{
+  "files": {
+    "AGENTS.md": "5c15a379f0cc65b8fe7a48fb0aa4dd1241ef5ec243c7e7ab5ab02bbd712c8ad9",
+    "CLAUDE.md": "df490cc3403ad38a2ed4df05fe45d1bfb31d807e18a32ed791c9f26d194af942",
+    "docs/agent-setup/principles.md": "68b7930eae0938f223e30247b60e6e5d45957c8a1ab9384be5726ab4710594b2",
+    "docs/agent-setup/task.md": "1f86bb74538b1da57d6f43c26f9103dbc11729d0f2d8ea3d9350dfec01430786"
+  },
+  "personal_owner": "joseperezaguera",
+  "schema": 1,
+  "source_commit": "35a6b990e0235a3c330990c91d7e34a89d4deb32",
+  "source_dirty": false,
+  "version": "0.1.0"
+}
