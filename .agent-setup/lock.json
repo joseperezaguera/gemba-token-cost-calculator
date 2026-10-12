@@ -1,13 +1,35 @@
 {
   "files": {
-    "AGENTS.md": "5c15a379f0cc65b8fe7a48fb0aa4dd1241ef5ec243c7e7ab5ab02bbd712c8ad9",
+    "AGENTS.md": "fe753e48a0a2232d58c1f9c06b8dcc70854c4bbdb67378440fdc387a98a22f84",
     "CLAUDE.md": "df490cc3403ad38a2ed4df05fe45d1bfb31d807e18a32ed791c9f26d194af942",
-    "docs/agent-setup/principles.md": "68b7930eae0938f223e30247b60e6e5d45957c8a1ab9384be5726ab4710594b2",
-    "docs/agent-setup/task.md": "1f86bb74538b1da57d6f43c26f9103dbc11729d0f2d8ea3d9350dfec01430786"
+    "docs/agent-setup/adr-template.md": "a3592b995152da7df05e95216d782d8052071ade897799ecc76d202a03b68c2d",
+    "docs/agent-setup/architecture.md": "3b131f9775ef982ee319a62ea711722299973cdac858428a2c593b1cf9257082",
+    "docs/agent-setup/cd.md": "7f957bf453fa6a8ce41d2b44b3ff8a99954ba9d5b0edaf7e7587f6eb86953ed5",
+    "docs/agent-setup/change-template.md": "28639ff1bdb7af8b1a1793f41efec4ea8a3193561510d4a57f69658e25945756",
+    "docs/agent-setup/ci.md": "0fe6b48de074fb6b7cd69edf83f9983e723ee1970d543688c296685e75976c97",
+    "docs/agent-setup/code-style.md": "99ee56753d8be96ccdb24b85b1e5a9dbfe9cf3c3f8ab2fc119f76f300f6642e4",
+    "docs/agent-setup/containers.md": "cd6cdae5d3cf1b1766e69fe77bf276cbb7f0a310e51142bf4cbdf5c569bf739b",
+    "docs/agent-setup/contract-template.md": "01c1c5ed5857e227460e1a0bb3a46ca63f71fe8169b92ee6dd04c2683323e4b1",
+    "docs/agent-setup/contracts.md": "a7baa1880eb2aa9e9baea1ba3ceb6721d725bdaa6ede42676688f52ab7e32152",
+    "docs/agent-setup/decisions.md": "7cb3a2f04f48e387da731550dcd565bef5223bef8490b1bac9d3ff31ee9ac50f",
+    "docs/agent-setup/delivery-profile-template.md": "70105bd7eec189448ada84f3bb1f21bf7dbad12b1450c784a21ed19fa6852e44",
+    "docs/agent-setup/delivery.md": "c8746b7122529a5de885b56aac505eaed054ae21439461514ad71b19585fd459",
+    "docs/agent-setup/domain.md": "e82b2860baa3b9caeaa168f686a40f1da203d047259aeee0d727f65389cfa87f",
+    "docs/agent-setup/e2e.md": "0aa973afffc31c8b4365c9e8bdf1189df48a7609b52b9217ebb78f96ff0280cd",
+    "docs/agent-setup/index.md": "8d2ac67921754b0aef32e9c61bee672809fde6fdffb61b7bbfc3f1c559dbdc97",
+    "docs/agent-setup/operations.md": "2fd93aa7e1ab71be2f00e690c0a2d87cb3254966ccc8d846ad4f1571cacd724a",
+    "docs/agent-setup/patterns.md": "87172df4994b783c8728c6bf06321cf2a3d52b2f05fd93a902066491c63b016d",
+    "docs/agent-setup/principles.md": "9798f52fbce97f746e8b43e9e462c0ae9680f88835481f02d8862d4df88c76d0",
+    "docs/agent-setup/project-context-template.md": "f88d62eb1915c2d5c74a417b8a8def585b16c2ececeaa163eb7035fa6a07691a",
+    "docs/agent-setup/review-template.md": "99f690b872f04f693471ce4a78633832bc55136e4e89ce9bd23a2746145f2367",
+    "docs/agent-setup/security.md": "ba02429a31175f5c42ddb2d2cbbbef6f4c2bbd247cfb9dc8cf99a4c4c1fd8d31",
+    "docs/agent-setup/task.md": "1f86bb74538b1da57d6f43c26f9103dbc11729d0f2d8ea3d9350dfec01430786",
+    "docs/agent-setup/testing.md": "1421b19337c91bbc3a4cb1f52e2acf8af77a6860477a6c04e089decc47b91c1d",
+    "docs/agent-setup/workflow.md": "d1642bb09c88ab569f0408f8e5fff0604da11fd7506c2315e4a20a642aa4e642"
   },
   "personal_owner": "joseperezaguera",
   "schema": 1,
-  "source_commit": "35a6b990e0235a3c330990c91d7e34a89d4deb32",
+  "source_commit": "38e7e6479baccf639e2ccf40872647adf489e286",
   "source_dirty": false,
-  "version": "0.1.0"
+  "version": "0.3.0"
 }
