@@ -3,6 +3,10 @@
 ## Context and authority
 
 Start with AGENTS.md, the project profile and the repository's existing conventions.
+Use docs/agent-setup/index.md to route to relevant engineering topics.
+The standard is independent of agent hosts, model providers and workflow frameworks.
+Agent Skills is the official development workflow, described in workflow.md.
+Its procedures implement the project's process; they do not override its decisions.
 Load only the documents relevant to the task. Cite paths when explaining decisions.
 Distinguish the code's current behavior from intended behavior in specifications.
 Accepted decisions and project conventions govern new work; existing code may be legacy.
